@@ -179,3 +179,13 @@ footer {
     text-align: center;
     color: white;
 }
+
+.github {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+.github:hover {
+    color: #3DDC84;
+}
