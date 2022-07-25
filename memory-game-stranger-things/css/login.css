@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'StrangerThingsFont';
-    src: url('../fonts/OPTIBrianJamesBoldCond.otf');
-}
-
-* {
-    font-family: 'StrangerThingsFont';
-}
-
 body {
     background-color: black;
 }
