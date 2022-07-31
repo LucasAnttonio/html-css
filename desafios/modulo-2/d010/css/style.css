@@ -116,6 +116,11 @@ article > p, aside > p, div.extra > p {
     text-indent: 2em;
 }
 
+aside {
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
 p > a {
     text-decoration: none;
     color: var(--cor4);
@@ -123,7 +128,7 @@ p > a {
 }
 
 p > a::after {
-    content: '\1F517';
+    content: '\00A0\1F517';
 }
 
 p > strong {
@@ -133,7 +138,7 @@ p > strong {
 img#bugdroid {
     display: block;
     margin: auto;
-    width: 50%;
+    max-width: 350px;
 }
 
 div.extra {
