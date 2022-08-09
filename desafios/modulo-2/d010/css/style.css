@@ -179,7 +179,7 @@ ul {
     margin-top: 1em;
 }
 
-li > p {
+abbr {
     text-decoration: underline;
 }
 
