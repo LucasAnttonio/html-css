@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First JavaScript</title>
+</head>
+<body>
+    <h1>Meu primeiro código em JavaScript</h1>
+    <button onclick="document.getElementById('time').innerHTML = Date()">Click para ver a hora</button>
+    <p id="time"></p>
+
+    <h1>Aqui, um JavaScript altera o valor do atributo src (source) de uma imagem.</h1>
+    <img src="./imagem/pic_bulboff.gif" alt="luz desligada ou ligada" id="luz">
+    <p>
+        <button type="button" onclick="light(0)">Ligar Luz</button>
+        <button type="button" onclick="light(1)">Desligar Luz</button>
+    </p>
+
+    <script>
+        function light(sw) {
+            var pic
+            if (sw == 0) {
+                pic = "./imagem/pic_bulbon.gif"
+            } else {
+                pic = "./imagem/pic_bulboff.gif"
+            }
+
+            document.getElementById('luz').src = pic
+        }
+    </script>
+</body>
+</html>
